@@ -1,0 +1,35 @@
+{
+  "name": "rest-api-geojson",
+  "version": "1.0.0",
+  "description": "Api to fetch users within radius using geo-json ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chandrakumarreddy/rest-api-geo-json.git"
+  },
+  "keywords": [
+    "rest-api",
+    "geojson",
+    "users"
+  ],
+  "author": "chandrapenugonda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chandrakumarreddy/rest-api-geo-json/issues"
+  },
+  "homepage": "https://github.com/chandrakumarreddy/rest-api-geo-json#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "morgan": "^1.9.1"
+  }
+}
